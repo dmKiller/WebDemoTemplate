@@ -1,0 +1,12 @@
+/*
+ * basic common
+ * --------------------
+ */
+
+@for $i from 1 to 23 {
+  .space-#{$i} {
+    height: 1px;
+    margin: #{$i}px 0;
+  }
+}
+

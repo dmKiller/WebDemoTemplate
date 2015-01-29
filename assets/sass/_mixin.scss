@@ -1,0 +1,39 @@
+/*
+ * mixin
+ * --------------------
+ */
+
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow:$shadow;
+  -moz-box-shadow:$shadow;
+  -o-box-shadow:$shadow;
+  box-shadow:$shadow;
+}
+
+@mixin text-shadow($shadow) {
+  -webkit-text-shadow:$shadow;
+  -moz-text-shadow:$shadow;
+  -o-text-shadow:$shadow;
+  text-shadow:$shadow;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -o-border-radius:$radius;
+  border-radius:$radius;
+}
+
+@mixin transition($param){
+  -webkit-transition:$param;
+  -moz-transition:$param;
+  -o-transition:$param;
+  transition: $param;
+}
+
+@mixin transform($param){
+  -webkit-transform:$param;
+  -moz-transform:$param;
+  -o-transform:$param;
+  transform: $param;
+}

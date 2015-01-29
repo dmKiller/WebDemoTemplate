@@ -1,0 +1,12 @@
+{
+  "name": "spmSeajs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "author": "songt <map90vip@163.com>",
+  "licenses": "MIT",
+  "spm": {
+    "main": "./js/a.js"   //入口函数
+  }
+}

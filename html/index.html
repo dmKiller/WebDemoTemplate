@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <!-- JQuery -->
+    <script type="text/javascript" src="../assets/js/standard/jquery.js"></script>
+    <script type="text/javascript" src="../assets/js/standard/sea.js"></script>
+
+    <!-- Bootstrap3 -->
+    <script type="text/javascript" src="../assets/plugs/bootstrapV3/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../assets/plugs/bootstrapV3/css/bootstrap.min.css" />
+
+    <!-- Font-Awesome-3.2.1 -->
+    <link type="text/css" rel="stylesheet" href="../assets/plugs/Font-Awesome-3.2.1/css/font-awesome.min.css" />
+
+    <!-- Datetimepicker -->
+    <script type="text/javascript" src="../assets/plugs/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="../assets/plugs/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+    <link rel="stylesheet" href="../assets/plugs/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.css"/>
+
+    <!-- Poshytip -->
+    <script defer="defer" type="text/javascript" src="../assets/plugs/poshytip/jquery.poshytip.js"></script>
+    <link rel="stylesheet" href="../assets/plugs/poshytip/tip-yellow/tip-yellow.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/plugs/poshytip/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="./css/main-ie.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="../assets/plugs/compatible/html5shiv.min.js"></script>
+    <script src="../assets/plugs/compatible/respond.min.js"></script>
+    <script src="../assets/plugs/compatible/excanvas.js"></script>
+    <![endif]-->
+
+
+
+</head>
+<body>
+    test页面
+    <script>
+        seajs.config({
+            base: "../assets/js/services"
+        });
+
+        // 加载入口模块
+        seajs.use("a",function() {
+        });
+    </script>
+</body>
+</html>
